@@ -77,8 +77,8 @@ table{
         border: 2px solid #d29a9a;
         border-bottom: 4px ridge #d29a9a;
         border-radius: 10px;
-        height: 38vh;
-        width: 71vw;
+        height: 40vh;
+        width: 56vw;
         padding: 5px;
         background: radial-gradient(rgb(237, 6, 141),red,yellow,blue,orange,violet,cyan, transparent);
         box-shadow: -6px 6px 9px chartreuse, 2px 2px 20px 3px black;

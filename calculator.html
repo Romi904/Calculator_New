@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CALCULATOR</title>
+</head>
+<body>
+    <!-- <div id="body">
+        <img src="https://source.unsplash.com/1650x900/?nature,water" alt="remote image">
+    </div> -->
+    <div class="main">
+        <div class="box">
+            <caption>CASIO - 47B</caption>
+            <div class="display">
+                <input id="dis" type="text" readonly onclick="owner()">
+            </div>
+            <table>
+                <tr>
+                    <td id="clr" colspan="2">CLEAR</td>
+                    <td colspan="2" onclick="del()">DEL</td>
+                </tr>
+                <tr>
+                    <td onclick="add(1)">1</td>
+                    <td onclick="add(2)">2</td>
+                    <td onclick="add(3)">3</td>
+                    <td onclick="add('+')">+</td>
+                </tr>
+                <tr>
+                    <td onclick="add(4)">4</td>
+                    <td onclick="add(5)">5</td>
+                    <td onclick="add(6)">6</td>
+                    <td onclick="add('-')">-</td>
+                </tr>
+                <tr>
+                    <td onclick="add(7)">7</td>
+                    <td onclick="add(8)">8</td>
+                    <td onclick="add(9)">9</td>
+                    <td onclick="add('/')">/</td>
+                </tr>
+                <tr>
+                    <td onclick="add('.')">.</td>
+                    <td onclick="add(0)">0</td>
+                    <td onclick="solve()">=</td>
+                    <td onclick="add('*')">*</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

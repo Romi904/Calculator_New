@@ -2,8 +2,13 @@ console.log('Working');
 function owner(){
     alert('Creator- Romijul LAskar,\n copyrights@romijul_2022.');
 }
+function clearS(){
+    var t=document.getElementsByTagName('input');
+    t[0].value="CLEAR";
+    setTimeout(clear,0250);
+}
 let x=document.getElementById('clr');
-x.addEventListener('click',clear);
+x.addEventListener('click',clearS);
 function clear(){
     var t=document.getElementsByTagName('input');
     t[0].value="";
